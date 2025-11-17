@@ -7,11 +7,12 @@ commands:
   ajuda:
     description: Exibe uma lista de comandos e suas informações
     usage: /ajuda
-    aliases: [help]
+    aliases: [help, ayuda]
 permissions:
   blockyhelp.use:
     description: Permite utilizar o comando /ajuda
     default: true
 softdepend:
+  - BlockyGeoIP
   - BlockyClaim
   - BlockyFactions
