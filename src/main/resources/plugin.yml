@@ -15,4 +15,4 @@ permissions:
 softdepend:
   - BlockyGeoIP
   - BlockyClaim
-  - BlockyFactions
+  - BlockyGroups
