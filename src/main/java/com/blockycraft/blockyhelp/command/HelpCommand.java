@@ -21,7 +21,7 @@ public class HelpCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Only players can use this command.");
+            sender.sendMessage(plugin.getLanguageManager().get("en", "error.only_players"));
             return true;
         }
 
